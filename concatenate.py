@@ -1,0 +1,7 @@
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+
+result = str1 + str2
+
+print("Concatenated String:", result)
+print("Length of string:", len(result))
