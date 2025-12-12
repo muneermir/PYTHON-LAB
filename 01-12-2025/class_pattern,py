@@ -1,0 +1,15 @@
+class Pattern:
+    @staticmethod
+    def square(n):
+        for _ in range(n):
+            print('* ' * n)
+
+    @staticmethod
+    def triangle(n):
+        for i in range(1, n+1):
+            print('* ' * i)
+
+# Example
+Pattern.square(4)
+print()
+Pattern.triangle(5)
